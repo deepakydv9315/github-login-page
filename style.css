@@ -121,6 +121,14 @@ input:focus {
     background-color: var(--fade-light);
 }
 
+.dev-info{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+
 @media screen and (max-width:360px) {
     body {
         padding: 0px 10px;
